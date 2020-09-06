@@ -1,0 +1,15 @@
+rnn_dim:256
+filters:32 64 128
+features:40
+batch_size:64
+epochs:100
+learning_rate:0.0001
+max_w:256
+max_h:64
+min_w:16
+min_h:8
+scale_h:36
+kernel_width:3 3 3
+dropout:0.4
+rnn_layers:3
+N_out:109
